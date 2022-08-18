@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: abhip
+Build-Jdk: 18.0.2
+Implementation-Title: IntraHeure
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: project
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/IntraHeure
+Created-By: Maven Integration for Eclipse
+

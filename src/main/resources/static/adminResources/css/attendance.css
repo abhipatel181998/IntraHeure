@@ -1,0 +1,65 @@
+#dataTable_filter{
+	float: right;
+	clear: right;
+}
+
+#dataTable_paginate{
+	float: right;
+	clear: right;
+}
+
+.middle{
+	text-align: center;
+}
+
+.attendance, .attendance th, .attendance td{
+	border: 1px solid #b3b3b3;
+}
+
+.bgred{
+	background-color: #ff4d4d;
+}
+
+.bggreen{
+	background-color: #33ff77;
+}
+
+.bgorange{
+	background-color: #ffb84d;
+}
+
+.bgyellow{
+	background-color: #ffff66;
+}
+
+.bgblue{
+	background-color: #a366ff;
+}
+
+.details{
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.details div div{
+	border: 1px solid #bbbbbb;
+	height: 30px;
+	width: 50px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.details div p{
+	margin: 5px;
+}
+
+.clear{
+	clear: left;
+}
+
+.title{
+	padding-top: 5px;
+    padding-left: 15px;
+}
