@@ -2,6 +2,8 @@ package com.intraheure.dao;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -54,9 +56,9 @@ public class RegisterDaoImp implements RegisterDao {
 		Session session = sessionFactory.openSession();
 		Query query = session.createQuery(
 				"UPDATE LoginVo SET enabled = 1 WHERE loginId = '" + registrationVo.getLoginVo().getLoginId() + "'");
+		Transaction transaction = session.beginTransaction();
 		query.executeUpdate();
 
-		Transaction transaction = session.beginTransaction();
 		transaction.commit();
 
 		session.close();

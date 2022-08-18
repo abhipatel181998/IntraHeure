@@ -3,10 +3,10 @@
 <div class="header">
 	<div class="header-left">
 		<a href="/" class="logo logo-big"> <img
-			src="../${pageContext.request.contextPath }/adminResources/images/logo.png"
+			src="${pageContext.request.contextPath }/adminResources/images/logo.png"
 			width="150" height="45" alt="">
 		</a> <a href="/" class="logo logo-small"> <img
-			src="../${pageContext.request.contextPath }/adminResources/images/logo.png"
+			src="${pageContext.request.contextPath }/adminResources/images/logo.png"
 			width="35" height="35" alt="">
 		</a>
 	</div>
@@ -22,7 +22,7 @@
 			title="Admin"> <span class="user-img"><c:if
 						test="${data.profilePic eq null}">
 						<img class="img-circle"
-							src="../${pageContext.request.contextPath }/adminResources/images/user.jpg"
+							src="${pageContext.request.contextPath }/adminResources/images/user.jpg"
 							width="40" alt="Admin">
 					</c:if> <c:if test="${data.profilePic ne null}">
 						<img class="img-circle"

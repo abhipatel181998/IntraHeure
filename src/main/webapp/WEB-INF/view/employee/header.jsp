@@ -7,7 +7,7 @@
 			data-toggle="dropdown" href="#" role="button" aria-haspopup="false"
 			aria-expanded="false"><c:if test="${data.profilePic eq null}">
 					<img
-						src="../${pageContext.request.contextPath }/adminResources/images/user.jpg"
+						src="${pageContext.request.contextPath }/adminResources/images/user.jpg"
 						alt="${data.firstName } Photo" class="rounded-circle">
 				</c:if> <c:if test="${data.profilePic ne null}">
 					<img
