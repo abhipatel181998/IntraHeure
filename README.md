@@ -7,13 +7,18 @@ HRMS web application allowing organization to manage resources.
 ![Common Login](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/CommonLogin.png?raw=true)
 
 ### Register
+#### Employee Login
 ![Employee login](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/EmployeeReg.png?raw=true)
+#### HR Login
 ![Hr login](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/HRReg.png?raw=true)
 
 ### Dashboards
+#### Admin Dashboard 
 ![Admin Dashboard](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/admin_deshboard.png?raw=true)
-![Admin Dashboard](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/hr_deshboard.png?raw=true)
-![Admin Dashboard](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/emp_deshboard.png?raw=true)
+#### HR Dashboard 
+![HR Dashboard](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/hr_deshboard.png?raw=true)
+#### Employee Dashboard 
+![Employee Dashboard](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/emp_deshboard.png?raw=true)
 
 ## Instructions
 1. Run the application
