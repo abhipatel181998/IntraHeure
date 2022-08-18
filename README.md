@@ -4,7 +4,7 @@ HRMS web application allowing organization to manage resources.
 ## Screenshots
 
 ### Login
-![Common Login](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/CommonLogin.png?raw=true TITLE="Login")
+![Common Login](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/CommonLogin.png?raw=true title="Login")
 
 ### Register
 ![Employee login](https://github.com/abhipatel181998/IntraHeure/blob/master/projectscreenshots/EmployeeReg.png?raw=true TITLE="Employee Registration")
